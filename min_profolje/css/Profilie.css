@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.maincontent {
+    background-color: #6a667a;
+    color: #d8cffa;
+    width: 180vh;
+    height: 95vh;
+    margin: 0 auto;
+}
+
+.left {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    text-align: center;
+}

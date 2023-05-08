@@ -1,0 +1,131 @@
+
+body{
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(206, 138, 28);
+    color: gainsboro;
+    padding: 20px 5px 20px 5px;
+}
+.header img{
+    float: right;
+}
+.header h1 {
+    font-size: 35px;
+  }
+.NavMenu{
+    overflow: hidden;
+    background-color: gray;
+}
+.NavMenu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.TFM{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cock{
+    width: 80%;
+    margin: auto;
+    padding: 80px;
+}
+
+.cock iframe{
+    width: 100%;
+}
+
+.NavMenu a:hover {
+    background-color: rgb(206, 138, 28);
+    color: black;}
+.fakeimg{
+    background-color: #f1f1f1;
+    width: 20px;
+    height: 700px;
+    padding: 20px;}
+    
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(59, 55, 55);
+    margin-top: 20px;
+    color: azure;
+    align-items: baseline;
+    text-decoration: none;
+  }
+.ting{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+
+}
+.skjermar p {
+    color: red;
+}
+#pris{
+    float: right;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dimgrey;
+}
+#Kjøpknapp{
+    float: right;
+    border: 12px;
+    padding: 20px 100px 20px 100px;
+    background-color: rgb(63, 249, 69);
+}
+.Shrektv{
+    text-align: center;
+}
+.Side {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.Columnvenstre{
+    float: left;
+    width: 100%;
+}
+.Columnhøgre {
+    float: right;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+    border: 20px;
+    border-color: #f1f1f1;
+  }
+.kort {
+    background-color: #f1f1f1;
+    padding: 15px 7px 15px 7px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+#Navn {
+    border: 1px;
+}
+#email {
+    border: 1px;
+}
+@media screen and (max-width: 400px) {
+    .NavMenu a {
+          float: none;
+          width: 100%;
+        }}
+ @media screen and (max-width: 800px) {
+    .Columnvenstre, .Columnhøgre {   
+          width: 100%;
+          padding: 0;
+            }
+          }
