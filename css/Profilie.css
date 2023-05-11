@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: #5a566a;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -18,10 +18,31 @@ body {
     width: 50%;
     float: left;
     text-align: center;
+    position: relative;
+
 }
 
 .right {
     width: 50%;
     float: right;
     text-align: center;
+    position: relative;
 }
+.navi{
+    background-color: #5a566a;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    float: right;
+    text-align: center;
+}
+.navi a {
+    text-decoration: none;
+    display: block;
+    padding: 9px 16px;
+    color: #d8cffa;
+}
+.navi a:hover{
+    color: #9c85fb;
+}
+
