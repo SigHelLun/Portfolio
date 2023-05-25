@@ -1,48 +1,90 @@
 body {
-    background-color: #5a566a;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    overflow: hidden;
+  background-color: #5a566a;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
 }
 
 .maincontent {
-    background-color: #6a667a;
-    color: #d8cffa;
-    width: 180vh;
-    height: 95vh;
-    margin: 0 auto;
+  background-color: #6a667a;
+  color: #d8cffa;
+  width: 180vh;
+  height: 95vh;
+  margin: 0 auto;
 }
 
 .left {
-    width: 50%;
-    float: left;
-    text-align: center;
-    position: relative;
-
+  width: 50%;
+  float: left;
+  text-align: center;
+  position: relative;
 }
 
 .right {
-    width: 50%;
-    float: right;
-    text-align: center;
-    position: relative;
+  width: 50%;
+  float: right;
+  text-align: center;
+  position: relative;
 }
-.navi{
-    background-color: #5a566a;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    float: right;
-    text-align: center;
+.navi {
+  background-color: #5a566a;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-right: 2%;
+  float: right;
+  text-align: center;
+  font-size: larger;
+  padding-right:1vh ;
+  padding-left:1vh ;
+  padding-top: 0.3vh;
+  padding-bottom: 0.3vh;
 }
 .navi a {
-    text-decoration: none;
-    display: block;
-    padding: 9px 16px;
-    color: #d8cffa;
+  text-decoration: none;
+  display: block;
+  padding: 9px 16px;
+  color: #d8cffa;
 }
-.navi a:hover{
-    color: #9c85fb;
+.navi a:hover {
+  color: #9c85fb;
 }
-
+.naviommeg{
+  background-color: #5a566a;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  float: left;
+  text-align: center;
+  font-size: larger;
+  padding-right:1vh ;
+  padding-left:1vh ;
+  padding-top: 0.3vh;
+  padding-bottom: 0.3vh;
+}
+.naviommeg a {
+  text-decoration: none;
+  display: block;
+  padding: 9px 16px;
+  color: #d8cffa;
+}
+.naviommeg a:hover{
+  color: #9c85fb;
+}
+#innholdtekst{
+  font-size:larger;
+  color: #d8cffa;
+}
+#innholdtekst a{
+  
+  color: #d8cffa;
+}
+#ommeg{
+  font-size:larger;
+  color: #d8cffa;
+}
+@media (max-width: 1600px) {
+  #imgs {
+    width: 50vh;
+  }
+}
