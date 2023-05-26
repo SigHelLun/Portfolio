@@ -29,6 +29,20 @@ body {
   text-align: center;
   position: relative;
 }
+/* dette er tleft tright og tmiddle dei blir brukt til tidligere navigations siden istedet forr right left*/
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.column {
+  width: 33%;
+  height: 100%;
+  /*margin: 5px;*/
+}
 /* navi til heim siden der alle linkene som tar deg til en anne page på siden ligger*/
 .navi {
   background-color: #5a566a;
@@ -80,6 +94,57 @@ body {
 .naviommeg a:hover{
   color: #9c85fb;
 }
+/*styling til knapper side tidligere*/
+
+/*prog er den første knappen til programmering*/
+.prog{
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  width: 50vh;
+  background-image: url("../images/prog.png");
+  margin: 5vh;
+  border-radius: 10px;
+}
+.prog a{
+  text-decoration: none;
+  color: #d8cffa;
+}
+.prog a:hover{
+  color: #9c85fb;
+}
+/*tek er den andre knappen til teknologiforståelse*/
+.tek{
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  width: 50vh;
+  background-image: url("../images/tek.png");
+  margin: 5vh;
+  border-radius: 10px;
+}
+.tek a{
+  text-decoration: none;
+  color: #d8cffa;
+}
+.tek a:hover{
+  color: #9c85fb;
+}
+/*historiefortelling side knappen*/
+.media{
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  width: 50vh;
+  background-image: url("../images/media.png");
+  margin: 5vh;
+  border-radius: 10px;
+}
+.media a{
+  text-decoration: none;
+  color: #d8cffa;
+}
+.media a:hover{
+  color: #9c85fb;
+}
+
 /* setter blå farge på den siden du er på  
 */
 #nåside{
@@ -97,9 +162,29 @@ body {
   
   color: #d8cffa;
 }
-/* denne resize skjermen vist den er under 1600px width
+/*css til tekst på side om meg*/
+#innholdtekst2{
+  font-size:larger;
+  color: #d8cffa;
+  text-align: left;
+  margin-left: 30vh;
+}
+#innholdtekst2 a{
+  
+  color: #d8cffa;
+}
+
+/*css til email skrift på om meg for en eller annen grunn*/
+.email{
+  text-decoration: none;
+  color: #d8cffa;
+  font-size: larger;
+}
+
+/* denne resize skjermen vist den er under 1950px width
  */
-@media (max-width: 1600px) {
+
+@media (max-width: 1950px) {
   #imgs {
     width: 50vh;
   }
