@@ -7,11 +7,12 @@ body {
 }
 
 .maincontent {
-  background-color: #6a667a;
+  background-color: #4c4760;
   color: #d8cffa;
   width: 180vh;
   height: 95vh;
   margin: 0 auto;
+  border-radius: 25px;
 }
 
 .left {
@@ -39,6 +40,7 @@ body {
   padding-left:1vh ;
   padding-top: 0.3vh;
   padding-bottom: 0.3vh;
+  border-radius: 10px;
 }
 .navi a {
   text-decoration: none;
@@ -49,6 +51,7 @@ body {
 .navi a:hover {
   color: #9c85fb;
 }
+
 .naviommeg{
   background-color: #5a566a;
   margin-top: 2%;
@@ -61,6 +64,7 @@ body {
   padding-left:1vh ;
   padding-top: 0.3vh;
   padding-bottom: 0.3vh;
+  border-radius: 10px;
 }
 .naviommeg a {
   text-decoration: none;
@@ -71,16 +75,21 @@ body {
 .naviommeg a:hover{
   color: #9c85fb;
 }
+/* setter blå farge på den siden du er på  
+*/
+#nåside{
+  color: #9c85fb;
+}
+
+
+/* css til tekst på heim side*/
+
 #innholdtekst{
   font-size:larger;
   color: #d8cffa;
 }
 #innholdtekst a{
   
-  color: #d8cffa;
-}
-#ommeg{
-  font-size:larger;
   color: #d8cffa;
 }
 @media (max-width: 1600px) {
