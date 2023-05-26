@@ -1,3 +1,4 @@
+/*body er body*/
 body {
   background-color: #5a566a;
   justify-content: center;
@@ -5,7 +6,7 @@ body {
   display: flex;
   overflow: hidden;
 }
-
+/* maincontent er der eg har alt innholde*/
 .maincontent {
   background-color: #4c4760;
   color: #d8cffa;
@@ -14,7 +15,7 @@ body {
   margin: 0 auto;
   border-radius: 25px;
 }
-
+/* deller skjermen opp i left og right*/
 .left {
   width: 50%;
   float: left;
@@ -28,6 +29,7 @@ body {
   text-align: center;
   position: relative;
 }
+/* navi til heim siden der alle linkene som tar deg til en anne page på siden ligger*/
 .navi {
   background-color: #5a566a;
   margin-top: 2%;
@@ -51,7 +53,8 @@ body {
 .navi a:hover {
   color: #9c85fb;
 }
-
+/* navi er til siden om meg der alle linkene til hovudsidene ligger dette er css-en til det
+*/
 .naviommeg{
   background-color: #5a566a;
   margin-top: 2%;
@@ -66,6 +69,7 @@ body {
   padding-bottom: 0.3vh;
   border-radius: 10px;
 }
+
 .naviommeg a {
   text-decoration: none;
   display: block;
@@ -93,6 +97,8 @@ body {
   
   color: #d8cffa;
 }
+/* denne resize skjermen vist den er under 1600px width
+ */
 @media (max-width: 1600px) {
   #imgs {
     width: 50vh;
