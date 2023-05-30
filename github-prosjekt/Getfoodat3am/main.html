@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/main.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetFoodAt3AM</title>
+</head>
+
+<body>
+    <div class="img">
+        <img src="images/turn1.png" alt="" id="bilde1" width="1000px">
+        <img src="images/turn2.png" alt="" id="bilde2" width="1000px">
+        <img src="images/turn3.png" alt="" id="bilde3" width="1000px">
+        <!--basement ending IMG-->
+        <img src="images/Basement 1.png" alt="" id="bilde4" width="1000px">
+        <img src="images/Basement 2.png" alt="" id="bilde5" width="1000px">
+        <img src="images/rodent 1.png" alt="" id="bilde6" width="1000px">
+        <img src="images/rodent 2.png" alt="" id="bilde7" width="1000px">
+        <img src="images/rodent 3.png" alt="" id="bilde8" width="1000px">
+        <img src="images/Back to sleeping chamber ending.png" alt="" id="bilde10" width="1000px">
+        <img src="images/SleepDeath.png" alt="" id="bilde11" width="1000px">
+        <img src="images/Entering Gas station (outside).png" alt="" id="bilde12" width="1000px">
+        <img src="images/Kill store owner.png" alt="" id="bilde13" width="1000px">
+        <img src="images/PayForFood.png" alt="" id="bilde14" width="1000px">
+    </div>
+    <div class="choices">
+        <button id="choice1" onclick="turn1()">Go check the refrigerator</button>
+        <button id="choice2" onclick="turn2()">Open the refrigerator</button>
+        <button id="BaseEnd" onclick="BaseEnd()">Investigate the catacombs for nourishment</button>
+        <!--Basement Ending-->
+        <button id="Base1" onclick="basement1()">Open cold-storage box</button>
+        <button id="Base2" onclick="basement2()">Look at rodent next to you</button>
+        <button id="Base3" onclick="RatKick()">Kick</button>
+        <button id="Base4" onclick="RatPunch()">Punch</button>
+        <button id="Base5" onclick="Sleep1()">Go back to deep slumber</button>
+        <button id="SleepEnd0" onclick="SleepEnd()">Return to your sleeping quarter</button>
+        <!--Sleep Ending-->
+        <button id="StoreEnd" onclick="Store24()">Go to the local 24/7 gas station</button>
+        <button id="Base8" onclick="BuyP()">Pay for Frozen Pizza</button>
+        <button id="Base9" onclick="KillP()">Steal the Frozen Pizza</button>
+        <!--Store Ending-->
+       
+    </div>
+    <script src="js/Main.js"></script>
+</body>
+
+</html>

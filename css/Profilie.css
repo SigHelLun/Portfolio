@@ -4,7 +4,8 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  overflow: hidden;
+
+  color: #d8cffa;
 }
 /* maincontent er der eg har alt innholde*/
 .maincontent {
@@ -14,6 +15,7 @@ body {
   height: 95vh;
   margin: 0 auto;
   border-radius: 25px;
+  overflow: hidden;
 }
 /* deller skjermen opp i left og right*/
 .left {
@@ -180,6 +182,33 @@ body {
   color: #d8cffa;
   font-size: larger;
 }
+/*denne innhelder img tekst og alt som skal reangeres i tidligere*/
+.prosjectcontent {
+  background-color: #4c4760;
+  color: #d8cffa;
+  width: 180vh;
+  height: 130vh;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.prosjekt img{
+  border-radius: 10px;
+  margin-right: 3vh;
+}
+.prosjekt a:hover{
+  filter: brightness(50%);
+  color: #d8cffa;
+}
+.prosjekt p{
+  text-align:justify;
+  margin-left: 13vh;
+  margin-right: 15vh;
+  display:block;
+}
+.prosjekt a{
+  color: #9c85fb;
+}
+
 
 /* denne resize skjermen vist den er under 1950px width
  */

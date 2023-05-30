@@ -1,0 +1,91 @@
+body{
+    background-color: grey;
+    text-decoration: none;
+    text-align: center;
+}
+.choices{
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+.img{
+    text-align: center;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+button{
+    background-color: black; /* Green */
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;  
+    display: none;
+}
+
+#choice1{
+    display: block;
+    
+}
+#choice2{
+    display: none;
+}
+#BaseEnd{
+    display: none;
+}
+#SleepEnd{
+    display: none;
+}
+#StoreEnd{
+    display: none;
+}
+#bilde1{
+    display: block;
+}
+#bilde2{
+    display: none;
+}
+#bilde3{
+    display: none;
+}
+#bilde4{
+    display: none;
+}
+#bilde5{
+    display: none;
+}
+#bilde6{
+    display: none;
+}
+#bilde7{
+    display: none;
+}
+#bilde8{
+    display: none;
+}
+#bilde9{
+    display: none;
+}
+#bilde10{
+    display: none;
+}
+#bilde11{
+    display: none;
+}
+#bilde12{
+    display: none;
+}
+#bilde13{
+    display: none;
+}
+#bilde9{
+    display: none;
+}
+#bilde14{
+    display: none;
+}
