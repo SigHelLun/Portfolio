@@ -100,8 +100,8 @@ body {
 
 /*prog er den første knappen til programmering*/
 .prog{
-  padding-top: 0.5vh;
-  padding-bottom: 0.5vh;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
   width: 50vh;
   background-image: url("../images/prog.png");
   margin: 5vh;
@@ -116,8 +116,8 @@ body {
 }
 /*tek er den andre knappen til teknologiforståelse*/
 .tek{
-  padding-top: 0.5vh;
-  padding-bottom: 0.5vh;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
   width: 50vh;
   background-image: url("../images/tek.png");
   margin: 5vh;
@@ -132,8 +132,8 @@ body {
 }
 /*historiefortelling side knappen*/
 .media{
-  padding-top: 0.5vh;
-  padding-bottom: 0.5vh;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
   width: 50vh;
   background-image: url("../images/media.png");
   margin: 5vh;
@@ -182,8 +182,8 @@ body {
   color: #d8cffa;
   font-size: larger;
 }
-/*denne innhelder img tekst og alt som skal reangeres i tidligere*/
-.prosjectcontent {
+/*denne innhelder img tekst og alt som skal reangeres i tidligere i programmering*/
+.progcontent {
   background-color: #4c4760;
   color: #d8cffa;
   width: 180vh;
@@ -207,6 +207,18 @@ body {
 }
 .prosjekt a{
   color: #9c85fb;
+}
+
+
+/*media prosjekt css
+*/
+.mediacontent{
+  background-color: #4c4760;
+  color: #d8cffa;
+  width: 180vh;
+  height: 250vh;
+  margin: 0 auto;
+  border-radius: 25px;
 }
 
 
