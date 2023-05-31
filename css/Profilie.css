@@ -73,9 +73,9 @@ body {
 */
 .naviommeg{
   background-color: #5a566a;
-  margin-top: 2%;
-  margin-bottom: 5%;
-  margin-left: 2%;
+  margin-top: 3vh;
+  margin-left: 3vh;
+  margin-bottom: 3vh;
   float: left;
   text-align: center;
   font-size: larger;
@@ -190,7 +190,7 @@ body {
   background-color: #4c4760;
   color: #d8cffa;
   width: 180vh;
-  height: 180vh;
+  height: 175vh;
   margin: 0 auto;
   border-radius: 25px;
 }
@@ -219,10 +219,11 @@ body {
   background-color: #4c4760;
   color: #d8cffa;
   width: 180vh;
-  height: 210vh;
+  height: 290vh;
   margin: 0 auto;
   border-radius: 25px;
 }
+
 
 
 /* denne resize skjermen vist den er under 1950px width
