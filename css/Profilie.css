@@ -104,7 +104,8 @@ body {
   padding-bottom: 6vh;
   width: 50vh;
   background-image: url("../images/prog.png");
-  margin: 5vh;
+  margin-left: 5vh;
+  margin-top: 30vh;
   border-radius: 10px;
 }
 .prog a{
@@ -120,7 +121,8 @@ body {
   padding-bottom: 6vh;
   width: 50vh;
   background-image: url("../images/tek.png");
-  margin: 5vh;
+  margin-left: 5vh;
+  margin-top: 30vh;
   border-radius: 10px;
 }
 .tek a{
@@ -136,7 +138,8 @@ body {
   padding-bottom: 6vh;
   width: 50vh;
   background-image: url("../images/media.png");
-  margin: 5vh;
+  margin-left: 5vh;
+  margin-top: 30vh;
   border-radius: 10px;
 }
 .media a{
@@ -187,7 +190,7 @@ body {
   background-color: #4c4760;
   color: #d8cffa;
   width: 180vh;
-  height: 130vh;
+  height: 180vh;
   margin: 0 auto;
   border-radius: 25px;
 }
@@ -216,7 +219,7 @@ body {
   background-color: #4c4760;
   color: #d8cffa;
   width: 180vh;
-  height: 250vh;
+  height: 210vh;
   margin: 0 auto;
   border-radius: 25px;
 }
